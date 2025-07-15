@@ -1,1 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.semestre {
+  margin: 1rem;
+  background: white;
+  border-left: 5px solid #003366;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.asignatura {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: #eef;
+  border: 1px solid #ccd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.asignatura:hover {
+  background: #dde;
+}
+
+.detalle {
+  display: none;
+  margin-top: 0.5rem;
+  background: #fff;
+  border-left: 3px solid #669;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
